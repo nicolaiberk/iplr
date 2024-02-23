@@ -1,0 +1,10 @@
+{
+    // "r.useRenvLibPath": true,
+    "r.libPaths": [
+        "${workspaceRoot}/renv/library",
+    ],
+    "r.sessionWatcher": true,
+    "r.alwaysUseActiveTerminal": true,
+    "r.lsp.diagnostics": false,
+    "nixEnvSelector.nixFile": "${workspaceRoot}/shell.nix"
+}
