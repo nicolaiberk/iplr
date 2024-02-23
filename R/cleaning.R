@@ -13,6 +13,5 @@ clean_text <- function(x) {
         toupper() %>% # Convert to uppercase
         trimws() %>% # Trim leading and trailing whitespace
         gsub("[[:punct:]]", "", .) %>% # Remove punctuation
-        gsub("[[:space:]]", "", .) %>% # Remove spaces
-        gsub("-", "", .) # Remove dashes
+        gsub("[[:space:]]", "-", .)
 }
