@@ -10,7 +10,7 @@
 clean_text <- function(x) {
 
     x %>%
-        tolower() %>% # Convert to lowercase
+        toupper() %>% # Convert to uppercase
         trimws() %>% # Trim leading and trailing whitespace
         gsub("[[:punct:]]", "", .) %>% # Remove punctuation
         gsub("[[:space:]]", "", .) %>% # Remove spaces
