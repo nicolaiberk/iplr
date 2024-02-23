@@ -8,6 +8,7 @@
 #'
 #' @export
 clean_text <- function(x) {
+
     x %>%
         tolower() %>% # Convert to lowercase
         trimws() %>% # Trim leading and trailing whitespace
