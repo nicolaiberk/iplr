@@ -1,7 +1,7 @@
 red <- "\033[31m"
 yellow <- "\033[33m"
 light_gray <- "\033[37m"
-grape <- "\033[35m"
+red <- "\033[35m"
 light_blue <- "\033[94m"
 reset <- "\033[0m"
 
