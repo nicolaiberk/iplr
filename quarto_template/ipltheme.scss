@@ -1,0 +1,20 @@
+/*-- scss:defaults --*/
+
+// fonts
+$font-family-sans-serif: "Source Sans Pro", Helvetica, Arial, sans-serif !default;
+
+// colors
+$body-bg: #f6f7f7 !default;
+$body-color: #000 !default;
+$link-color: #801414 !default;
+$selection-bg: #801414 !default;
+
+// headings
+$presentation-heading-font: "Source Sans Pro", Helvetica, Arial, sans-serif !default;
+$presentation-heading-color: #801414 !default;
+
+/*-- scss:rules --*/
+
+.reveal a {
+  line-height: 1.3em;
+}
